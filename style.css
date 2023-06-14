@@ -661,6 +661,12 @@ footer .copyright{
     line-height: 25px;
 }
 
+/*Página del blog*/
+
+#page-header.blog-header{
+    background-image: url(img/blog/b19.jpg);
+}
+
 /*Iniciar consulta de medios, que se adapte a dispositivos medianos*/
 
 @media (max-width:799px) {

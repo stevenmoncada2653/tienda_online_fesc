@@ -667,6 +667,69 @@ footer .copyright{
     background-image: url(img/blog/b19.jpg);
 }
 
+#blog { /*aca formamos un espacio en los bloques osea espacio estre la img informacion y mas*/
+    padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box { /*aca podemos colar nuestra img y text en una fila*/
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+#blog .blog-img { /*aca la imagen se le dice que va ocupar un ancho de 50% para que el 50 este destinado la informacion*/
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img{ /*se mejora la posicion la imagen que sea fija*/
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#blog .blog-details { /*aca se le da forma espacio que va ocupar la informacion*/
+    width: 50%;
+}
+
+#blog .blog-details a{ /*aca se mejora el diseño del botton de (Seguir leyendo), como su tamaño que va ocupar que va ser 11px, se soloca posicion relactiva eso para que alla delizamiento inferior*/
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s;
+}
+
+#blog .blog-details a::after{ /*aca se crea la linea que va a lado de botton y la parte de arriba se coloca la posicion relactive para que por crear la linea no alla delizamiento inferior*/
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+
+#blog .blog-details a:hover{ /*ahora con eso podemos ver que cuando medio pasemos por el botton(Seguir leyendo) va tener un un color cuando lo oprimamos o paremos en el*/
+    color: #088178;
+}
+
+#blog .blog-details a:hover:after { /*aca se la de color a la linea (___) que esta lado seguir leyendo*/
+    background-color: #088178;
+}
+
+#blog .blog-box h1 { /*aca se posiciono y dio color a texto que va encima de la img, con z-index hacemos que aparezca detras de la img*/
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
+}
 /*Iniciar consulta de medios, que se adapte a dispositivos medianos*/
 
 @media (max-width:799px) {

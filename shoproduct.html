@@ -74,6 +74,78 @@
       </div>
    </section>
 
+   <section id="product1" class="section-p1">
+
+      <h2>Producto destacado</h2>
+      <p>Colección de verano Nuevo diseño moderno</p>
+      <div class="pro-container">
+         <div class="pro">
+            <img src="img/PRODUCTOS NEW/n1.jpg" alt="">
+            <div class="des">
+               <span>Dolce Gabbana</span>
+               <h5>Coleccion camisa-MS Dolce Gabbana</h5>
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h4>$180.000.00 COP</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+         </div>
+         <div class="pro">
+            <img src="img/PRODUCTOS NEW/n2.jpg" alt="">
+            <div class="des">
+               <span>Dolce Gabbana</span>
+               <h5>Coleccion camisa-MS Dolce Gabbana</h5>
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  
+               </div>
+               <h4>$75.000.00 COP</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+         </div>
+         <div class="pro">
+            <img src="img/PRODUCTOS NEW/n3.jpg" alt="">
+            <div class="des">
+               <span>Dolce Gabbana</span>
+               <h5>Coleccion camisa-MS Dolce Gabbana</h5>
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <h4>$159.999.00 COP</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+         </div>
+         <div class="pro">
+            <img src="img/PRODUCTOS NEW/n4.jpg" alt="">
+            <div class="des">
+               <span>Dolce Gabbana</span>
+               <h5>Coleccion camisa-MS Dolce Gabbana</h5>
+               <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  
+               </div>
+               <h4>$81.000.00 COP</h4>
+            </div>
+            <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+         </div>
+      </div>
+   </section>
+
    <section id="newsletter" class="section-p1 section-m1"> 
       <div class="newstext">
          <h4><span>Sing up</span> para recibir boletines informativos</h4>
@@ -135,9 +207,28 @@
          <p>© company MS-STEVEN Created 2023-html css js</p>
       </div>
    </footer>
+   
+   <!--control delizante javascrip osea ya podemos cambiar las imagenes poder ver las pequeñas con esta funcion, que se declaran dos variable una para imagen principal y otra para las pequeñas-->
+   <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function(){
+         MainImg.src = smallimg[0].src;
+      }
+      smallimg[1].onclick = function(){
+         MainImg.src = smallimg[1].src;
+      }
+      smallimg[2].onclick = function(){
+         MainImg.src = smallimg[2].src;
+      }
+      smallimg[3].onclick = function(){
+         MainImg.src = smallimg[3].src;
+      }
+  </script>
  
     
    <script src="scrip.js"></script>
 </body>
 
-</html>
+</html> 

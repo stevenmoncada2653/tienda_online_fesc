@@ -626,6 +626,41 @@ footer .copyright{
    padding-top: 30px;
 }
 
+#prodetails .single-pro-details h4 { /*aca se acomoda el espacio que va tener ese texto al otro*/
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {/*aca se acomoda el espacio que va tener ese texto al otro*/
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select{ /*aca se acomoda la partte selecionar tallas el espacio que ocupara su margen de boton*/
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{ /*aca decide cuantos objetos desea llevar lo que se hace es reducir su barra selecion de objetos hacerla mas pequeña y comoda*/
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{ /*aca eliminamos el contorno de (cuantos objetos seleciona)*/
+    outline: none;
+}
+
+#prodetails .single-pro-details button { /*aca se le da colo a la parte de button de llevar al carrito, se le da un color de fondo con unas letras en blanco mejor diseño*/
+    background: #088178;
+    color: #fff;
+}
+
+#prodetails .single-pro-details span{ /*aca se acomoda la parte del span o texto descripcion del product, haciendo que el text ya no este pegado encima del otro*/
+    line-height: 25px;
+}
+
 /*Iniciar consulta de medios, que se adapte a dispositivos medianos*/
 
 @media (max-width:799px) {
@@ -787,4 +822,20 @@ footer .copyright{
     footer .copyright { /*cambiamos nuestra a liniacion de derechos de autor al dispositivos mobilie*/
         text-align: start;
     }
+
+    /*Producto único o (descripcion del producto su informacion img y mas..., (shoproduct.html)*/
+
+    #prodetails{ /*se hace que se pueda ver la descripcion en column haciendo que sea comodo y mejor para mobile*/
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image{ /*se acomo cuando vayan a ver la descripcion del producto lo vean comodos en mobile*/ 
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details { /*ya con esto le estamos diciendo que ocupe 100% haciendo que button,carrito,span o descripcion se acomoden a mobile*/
+        width: 100%;
+     }
 }

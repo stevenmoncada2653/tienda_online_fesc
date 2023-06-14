@@ -1,0 +1,790 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color:#000000;
+}
+
+h4{
+    font-size: 20px;
+    color: #222
+}
+
+h6{
+    font-weight: 700;
+    font-size: 12;
+}
+
+p{
+    font-size: 16;
+    color: #222;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px;
+}
+
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 16px 20px;
+    color: #000000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.02s;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.02s;
+}
+
+body{
+    width: 100%;
+}
+
+/* encabezado */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background:#fcf2f2; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgba(1, 93, 132, 0.873);
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #0a5350;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+/*aca no hacemos visibles los cambios que hicimos en dispotivos medianos para que no afecte en la pantalla grande*/
+
+#mobile { /*no sea visible los icinos de dispotivos medianos en la pantalla grande*/
+    display: none;
+    align-items: center;
+}
+
+#close {/*no sea visible la X de salida en el interfaz en la pantalla grande*/
+    display: none;
+}
+
+/* pagina principal */
+
+#hero {
+    background-image: url(img/hero/hero1.1.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size:cover;
+    background-position: top 35% right -225px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4{
+    padding-bottom: 15px;
+    color: #fcfcfc;
+}
+
+#hero h1{
+    color: #fdfdfd;
+}
+
+#hero p{
+    color: #ffffff;
+}
+
+#hero button{
+ background-image: url(img/button/button.pordefaul.png);
+ background-color: transparent;
+ color: aliceblue;
+ border: 0;
+ padding: 14px 80px 14px 65px;
+ background-repeat: no-repeat;
+ cursor: pointer;
+ font-weight: 700;
+ font-size: 15px;
+}
+
+/*cajas o feature*/
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box{
+   width: 180px;
+   text-align: center;
+   padding: 25px 15px;
+   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+   border: 1px solid #aafff1;
+   border-radius: 4px;
+   margin: 15px 0;
+}
+
+#feature .fe-box:hover{ /*sobra de la caja*/
+    box-shadow: 10px 10px 54px rgb(40, 159, 222);
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(120, 93, 7);
+}
+
+#feature .fe-box:nth-child(2) h6{
+    background-color: #1b8bc3;
+}
+
+#feature .fe-box:nth-child(3) h6{
+    background-color: #a82b6e;
+}
+
+#feature .fe-box:nth-child(4) h6{
+    background-color: #162168;
+}
+
+#feature .fe-box:nth-child(5) h6{
+    background-color: #741297;
+}
+
+#feature .fe-box:nth-child(6) h6{
+    background-color: #621f3e;
+}
+
+/*productos destacados*/
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #aafff1;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgb(17, 128, 150);
+
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span{
+    color:  #252626;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #000000;
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color: #ffd700;
+
+}
+
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color:  #000000;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+/*banner y productos*/
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/banner/b2.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color: #fff;
+    font-size: 16px;
+}
+
+#banner h2{
+    color: #ffffff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: #8e0404;
+}
+
+#banner button:hover{
+    background: #088178;
+    color: #fff;
+}
+
+/*banneres sm (paneles)*/
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banner-sm/b17.jpg);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url(img/banner-sm/b10.jpg);
+    
+} 
+
+#sm-banner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+
+/*banner3, 3 cuadros informacion*/
+
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3  .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/cuadrosinf/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url(img/cuadrosinf/b4.jpg);
+}
+
+#banner3 .banner-box3 {
+    background-image: url(img/cuadrosinf/b18.jpg);
+}
+
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3{
+    color: #a50909;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+/* newsletters (boletin inf)*/
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(img/boletininf/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter h4 span{
+    color: #178398;
+}
+
+#newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea8;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 40%;
+}
+
+#newsletter p span {
+    color: #ffbd27;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/*pie de pagina (footer)*/
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+  margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img{
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: #0a5350;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+/*zona de interfaz de tienda (shop.html)*/
+
+#page-header { /*zona de encabezado*/
+    background-image: url(img/encabezadoshop/b1.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h4,
+#page-header p {
+  
+    color: #fff;
+}
+
+#pagination{ /*aca centramos los iconos de catalogo*/
+    text-align: center;
+}
+
+#pagination a{ /*relleno de los iconos y un tamaño de en el relleno y margen de los iconos de catalogo*/
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i{ /*aca se acomoda el icono de la flecha de catalogo, como el relleno y el tamaño del icono*/
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*Producto único o (descripcion del producto su informacion img y mas..., (shoproduct.html)*/
+
+
+#prodetails { /*aca se acomoda la informacion y todo lo incluido en la informacion del product o product unicos , todo se vea la misma pantalla sin tener que bajr*/
+    display: flex;
+    margin-right: 20px;
+}
+
+#prodetails .single-pro-image{ /*acomodamos el espacio que va ocupar la img en el centro de ver su product*/
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group { /*aca se van a colocar el resto img del product en una fila vertical, para que vizualicen mas prendas*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col { /*aca acomodamos las img verticales para que no esten pegadas y tengas su espacio cada una sea mas estetico*/
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details { /*aca hacemos que ahora ocupe el 50% del ancho asi poder ver mejor la informacion y no tan pequeño*/
+   width: 50%;
+   padding-top: 30px;
+}
+
+/*Iniciar consulta de medios, que se adapte a dispositivos medianos*/
+
+@media (max-width:799px) {
+    .section-p1 { /*aca solo cambiamos el relleno que me sirvio para acomodar los cubos, igualar pixeles se acomoda para dispotivos medianos*/
+        padding: 40px 40px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    /*elemento de creacion barra del interfaz*/
+    #navbar.active{
+        right: 0;
+    }
+
+    /*margenes del interfaz*/
+    #navbar li {
+        margin-bottom: 25px;
+    }
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close{ /*aca se acomoda la posicion de X para salir del interfaz, aca se le da color y posicion*/
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+
+    #lg-bag{ /*aca con el id de lg-bag lo que hacemos con css vamos hacer que la bolsa no sea visible*/
+       display: none;
+    }
+
+    #hero { /*la parte de hero que se va acomodar para dispotivos medianos */
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+
+    #feature { /*centra todo los cubos para dispositvos medianos y sea comodo en sus pantallas*/
+        justify-content: center;
+    }
+
+    #feature .fe-box {              /*con esto hacemos que nuestros cubos queden 15 px a la derecha y la izquierda igual,*/
+        margin: 15px 15px;                  /*no como en pantalla grande solo era 15px derecha y 0 a la izquierda*/
+    }
+
+    #product1 .pro-container { /*en la secion product la justificacion contenido la centramos para dispotivos medianos, solo falta acomodar el margen*/
+        justify-content: center;
+    }
+
+    #product1 .pro { /*aca se acomoda el margen producto solo colocando la misma cantida px por lados para mobilie, no como pantalla grande que si deja cierto margen de px*/
+        margin: 15px 15px;
+    }
+
+    #banner { /*aca acomodamos la visibilidad del banner, quede un tamaño osea esta parte (altura) perfecto para dispotivos medianos*/
+        height: 20vh;
+    }
+
+    #sm-banner .banner-box { /*en la seccion de banner o tarjetas se acomodo la altura y el espacio que iba consumir perfecto para dispotivos medianos*/
+        min-width: 100%;
+        height: 30vh;
+    }
+
+    #banner3 { /*aca nos metemos a los tres banner o las 3 publicidades se le acomoda el area para dispositivos medianos*/
+        padding: 0 40px;
+    }
+
+    #banner3  .banner-box { /*pero esos 3 banner con un ancho minimo para que se vean juntas las 3 banner*/ 
+       width: 28%;
+    }
+
+    #newsletter .form { /* la parte de correo se acomoda la barra donde se coloca el correo, se le aumenta su ancho*/
+        width: 70%;
+    }
+}
+
+@media (max-width: 477px) { /* acomodacion sitio web para dispositivos pequeños*/
+   
+    .section-p1 { /*aca se coloca la regla (para los cubos) se acomodar el relleno*/
+        padding: 20px;
+    }
+    #header { /*se acomoda el area del encabezado, ahora pasamos seccion hero*/
+        padding: 10px 30px;
+    }
+
+    h4 { /*aca acomodamos informacion de la seccion hero el tamaño de px que van a ocupar en dispositivos medianos*/
+        font-size: 32px;
+    }
+
+    #hero { /* se acomoda el area del fondo a la izquierda no afecte informacion, luego (background) se termina comodar la posicion de fondo*/
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    #feature { /*aca abra un medio espacio entre cubos*/
+        justify-content: space-between;
+    }
+
+    #feature .fe-box { /* aca se cumple la regla se acomodan los cubos para dispositivos mobiles*/
+        width: 150px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro { /*aca cada producto ocupara 100% sirvira para tener mejor visualizacion en dispositivos mobiles*/
+        width: 100%;
+    }
+
+    #banner { /*cambiamos la altura del banner para poder verse mejor en dispositivos mobilie*/
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box { /*en los banner publicitarios se debe aumentar la altura para que el texto que contiene no se salga del banner*/
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box2 { /*generamos un margen de 20 px en la segunda banner publicitario para que alla un espacio entre los dos banner publicidad*/
+        margin-top: 20px;
+    }
+
+    #banner3 { /*aca se acomoda el area de los 3 banner juntos de publicidad, para quede bien mobilie se tiene que poner una altura 100 y de ancho*/
+        padding: 0 20px;
+    }
+
+    #banner3  .banner-box { /*aca se acomoda el espacio que van a ocupar banner publicitarios para mpbilie no afecte del uno y el otro*/
+        width: 100%;
+    }
+
+    #newsletter { /*donde la zona de login se acomodara o posiciona mejor y sera visualmente mejor para usuario mobilie*/
+        padding: 40px 20px;
+    }
+
+    #newsletter .form { /* la parte de correo se acomoda la barra de ingresar, ocupando una posicion perfecta para mobile*/
+        width: 100%;
+    }
+
+    footer .copyright { /*cambiamos nuestra a liniacion de derechos de autor al dispositivos mobilie*/
+        text-align: start;
+    }
+}

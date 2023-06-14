@@ -906,5 +906,27 @@ footer .copyright{
 
     #prodetails .single-pro-details { /*ya con esto le estamos diciendo que ocupe 100% haciendo que button,carrito,span o descripcion se acomoden a mobile*/
         width: 100%;
-     }
+    }
+
+    /*Página del blog, para dispositivos pequeños*/
+
+    #blog { /*aca se soluiono la cantidad de espacio que ocupaba*/
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-box { /*aca solucionamos el problema del texto y img*/
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-img { /*aca pudimos arreglar las img y se le dio un espacio al texto de 30px*/
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details { /*aca se arreglo el espacio de texto dandole un espacio 100% para mejor visualizacion*/
+        width: 100%;
+    }
 }

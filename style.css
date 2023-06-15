@@ -780,11 +780,13 @@ footer .copyright{
     width: 40%;
 }
 
-#contact-details .details span{ /*aca se acomoda estilo del titulo span*/
+#contact-details .details span,/*aca se acomoda estilo del titulo span*/
+#form-details form span{
   font-size: 12px;
 }
 
-#contact-details .details h2{ /*se acomoda el titulo tenga un espacio y estilo*/
+#contact-details .details h2,/*se acomoda el titulo tenga un espacio y estilo*/
+#form-details form h2{ 
   font-size: 26px;
   line-height: 35px;
   padding: 20px 0;
@@ -810,6 +812,32 @@ footer .copyright{
     margin: 0;
     font-size: 14px;
 }
+
+#contact-details .map{ /*se acomoda el ancho del map*/
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details .map iframe{ /*se acomoda el su altura*/
+    width: 100%;
+    height: 100%;
+}
+
+#form-details form{ /*aca se acomoda el interzas de (saber tu mensaje), se acomoda por columnas*/
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#form-details form input{ /*aca se le da unos bordes, tambien un espacio entre los input*/
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+
 
 
 /*Iniciar consulta de medios, que se adapte a dispositivos medianos*/

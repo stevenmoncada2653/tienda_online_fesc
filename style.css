@@ -730,6 +730,14 @@ footer .copyright{
     color: #c9cbce;
     z-index: -9;
 }
+
+/*Acerca de la página (about)*/
+
+#page-header.about-header{ /*aca se coloca el banner de about*/
+    background-image: url(img/about/banner.png);
+}
+
+
 /*Iniciar consulta de medios, que se adapte a dispositivos medianos*/
 
 @media (max-width:799px) {

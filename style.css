@@ -967,4 +967,23 @@ footer .copyright{
     #blog .blog-details { /*aca se arreglo el espacio de texto dandole un espacio 100% para mejor visualizacion*/
         width: 100%;
     }
+
+    /*Acerca de la página (about)*/
+
+    #about-head { /*aca colocamos la informacion en columna pra visualizar en dispositivos pequeños*/
+        flex-direction: column;
+    }
+
+    #about-head img {/*aca acomodamos la img para que en el espacio determinado ocupe su 100% sea mejor visible a dispositivos pequeños*/
+        width: 100%;
+        margin-bottom: 20px;/*aca damos un espacio entre img y inform*/
+    }
+
+    #about-head div { /*aca acomodamos text o informacion*/
+        padding-left: 0px;
+    }
+
+    #about-app .video {/*aca se le dice al video que ocupe 100% sea mejor visile el video en dispositivos pequeños*/
+        width: 100%; 
+    }
 }

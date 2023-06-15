@@ -768,6 +768,50 @@ footer .copyright{
 }
 
 
+/*Página de contacto*/
+
+#contact-details{ /*con esto hacemos que nuestro text y map este en una fila juntos*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact-details .details { /*con esto hacemos que nuestro texto ocupe 40% de ancho*/
+    width: 40%;
+}
+
+#contact-details .details span{ /*aca se acomoda estilo del titulo span*/
+  font-size: 12px;
+}
+
+#contact-details .details h2{ /*se acomoda el titulo tenga un espacio y estilo*/
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+#contact-details .details h3 { /*se acomoda el titulo tenga un estilo*/
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+
+#contact-details .details li{ /*se da un espacio estre cada text*/
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact-details .details li i{ /*se da acomodacion y estilo a los iconos*/
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact-details .details li p{ /*se acomoda el text para que este en al margen de los iconos*/
+    margin: 0;
+    font-size: 14px;
+}
+
+
 /*Iniciar consulta de medios, que se adapte a dispositivos medianos*/
 
 @media (max-width:799px) {

@@ -823,6 +823,14 @@ footer .copyright{
     height: 100%;
 }
 
+#form-details { /*aca juntamos nuestro saber tus mensajes con los que puedes contact haciendo un margen con un espacio y un gran borde solido que los envulve*/
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 80px;
+    border: 1px solid #e1e1e1;
+}
+
 #form-details form{ /*aca se acomoda el interzas de (saber tu mensaje), se acomoda por columnas*/
     width: 65%;
     display: flex;
@@ -830,15 +838,45 @@ footer .copyright{
     align-items: flex-start;
 }
 
-#form-details form input{ /*aca se le da unos bordes, tambien un espacio entre los input*/
+#form-details form input,/*aca se le da unos bordes, tambien un espacio entre los input, aprte se acomoda la parte del textarea quedo mismo tamaño de los espacios*/
+#form-details form textarea{
     width: 100%;
     padding: 12px 15px;
     outline: none;
     margin-bottom: 20px;
     border: 1px solid #e1e1e1;
 }
+#form-details form button{
+    background-color: #088178;
+    color: #fff;
+}
 
+/*aqui se acomo to la zona de poder conctatar, o por decir (people) se le dio diseño y se acomodo a una medida perfecta*/
+#form-details .people div{
+    padding-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+}
 
+#form-details .people div img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+#form-details .people div p{
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#form-details .people div p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
 
 /*Iniciar consulta de medios, que se adapte a dispositivos medianos*/
 

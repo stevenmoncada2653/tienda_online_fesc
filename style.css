@@ -12,18 +12,18 @@ h1 {
     color: #222;
 }
 
-h2{
+h2 {
     font-size: 46px;
     line-height: 54px;
     color:#000000;
 }
 
-h4{
+h4 {
     font-size: 20px;
     color: #222
 }
 
-h6{
+h6 {
     font-weight: 700;
     font-size: 12;
 }
@@ -34,11 +34,11 @@ p{
     margin: 15px 0 20px 0;
 }
 
-.section-p1{
+.section-p1 {
     padding: 40px 80px;
 }
 
-.section-m1{
+.section-m1 {
     margin: 40px;
 }
 
@@ -67,7 +67,7 @@ button.white {
     transition: 0.02s;
 }
 
-body{
+body {
     width: 100%;
 }
 
@@ -98,7 +98,7 @@ body{
     position: relative;
 }
 
-#navbar li a{
+#navbar li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -107,12 +107,12 @@ body{
 }
 
 #navbar li a:hover,
-#navbar li a.active{
+#navbar li a.active {
     color: rgba(1, 93, 132, 0.873);
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after{
+#navbar li a:hover::after {
     content: "";
     width: 30%;
     height: 2px;
@@ -148,20 +148,20 @@ body{
     justify-content: center;
 }
 
-#hero h4{
+#hero h4 {
     padding-bottom: 15px;
     color: #fcfcfc;
 }
 
-#hero h1{
+#hero h1 {
     color: #fdfdfd;
 }
 
-#hero p{
+#hero p {
     color: #ffffff;
 }
 
-#hero button{
+#hero button {
  background-image: url(img/button/button.pordefaul.png);
  background-color: transparent;
  color: aliceblue;
@@ -182,7 +182,7 @@ body{
     flex-wrap: wrap;
 }
 
-#feature .fe-box{
+#feature .fe-box {
    width: 180px;
    text-align: center;
    padding: 25px 15px;
@@ -192,16 +192,16 @@ body{
    margin: 15px 0;
 }
 
-#feature .fe-box:hover{ /*sobra de la caja*/
+#feature .fe-box:hover { /*sobra de la caja*/
     box-shadow: 10px 10px 54px rgb(40, 159, 222);
 }
 
-#feature .fe-box img{
+#feature .fe-box img {
     width: 100%;
     margin-bottom: 10px;
 }
 
-#feature .fe-box h6{
+#feature .fe-box h6 {
     display: inline-block;
     padding: 9px 8px 6px 8px;
     line-height: 1;
@@ -210,23 +210,23 @@ body{
     background-color: rgb(120, 93, 7);
 }
 
-#feature .fe-box:nth-child(2) h6{
+#feature .fe-box:nth-child(2) h6 {
     background-color: #1b8bc3;
 }
 
-#feature .fe-box:nth-child(3) h6{
+#feature .fe-box:nth-child(3) h6 {
     background-color: #a82b6e;
 }
 
-#feature .fe-box:nth-child(4) h6{
+#feature .fe-box:nth-child(4) h6 {
     background-color: #162168;
 }
 
-#feature .fe-box:nth-child(5) h6{
+#feature .fe-box:nth-child(5) h6 {
     background-color: #741297;
 }
 
-#feature .fe-box:nth-child(6) h6{
+#feature .fe-box:nth-child(6) h6 {
     background-color: #621f3e;
 }
 
@@ -236,14 +236,14 @@ body{
     text-align: center;
 }
 
-#product1 .pro-container{
+#product1 .pro-container {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap;
 }
 
-#product1 .pro{
+#product1 .pro {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
@@ -256,46 +256,46 @@ body{
     position: relative;
 }
 
-#product1 .pro:hover{
+#product1 .pro:hover {
     box-shadow: 20px 20px 30px rgb(17, 128, 150);
 
 }
 
-#product1 .pro img{
+#product1 .pro img {
     width: 100%;
     border-radius: 20px;
 }
 
-#product1 .pro .des{
+#product1 .pro .des {
     text-align: start;
     padding: 10px 0;
 }
 
-#product1 .pro .des span{
+#product1 .pro .des span {
     color:  #252626;
     font-size: 12px;
 }
 
-#product1 .pro .des h5{
+#product1 .pro .des h5 {
     padding-top: 7px;
     color: #000000;
     font-size: 14px;
 }
 
-#product1 .pro .des i{
+#product1 .pro .des i {
     font-size: 12px;
     color: #ffd700;
 
 }
 
-#product1 .pro .des h4{
+#product1 .pro .des h4 {
     padding-top: 7px;
     font-size: 15px;
     font-weight: 700;
     color:  #000000;
 }
 
-#product1 .pro .cart{
+#product1 .pro .cart {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -324,22 +324,22 @@ body{
     background-position: center;
 }
 
-#banner h4{
+#banner h4 {
     color: #fff;
     font-size: 16px;
 }
 
-#banner h2{
+#banner h2 {
     color: #ffffff;
     font-size: 30px;
     padding: 10px 0;
 }
 
-#banner h2 span{
+#banner h2 span {
     color: #8e0404;
 }
 
-#banner button:hover{
+#banner button:hover {
     background: #088178;
     color: #fff;
 }
@@ -370,19 +370,19 @@ body{
     
 } 
 
-#sm-banner h4{
+#sm-banner h4 {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
 }
 
-#sm-banner h2{
+#sm-banner h2 {
     color: #fff;
     font-size: 28px;
     font-weight: 800;
 }
 
-#sm-banner span{
+#sm-banner span {
     color: #fff;
     font-size: 14px;
     font-weight: 500;
@@ -425,13 +425,13 @@ body{
     background-image: url(img/cuadrosinf/b18.jpg);
 }
 
-#banner3 h2{
+#banner3 h2 {
     color: #fff;
     font-weight: 900;
     font-size: 22px;
 }
 
-#banner3 h3{
+#banner3 h3 {
     color: #a50909;
     font-weight: 800;
     font-size: 15px;
@@ -439,7 +439,7 @@ body{
 
 /* newsletters (boletin inf)*/
 
-#newsletter{
+#newsletter {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -450,17 +450,17 @@ body{
     background-color: #041e42;
 }
 
-#newsletter h4{
+#newsletter h4 {
     font-size: 22px;
     font-weight: 700;
     color: #fff;
 }
 
-#newsletter h4 span{
+#newsletter h4 span {
     color: #178398;
 }
 
-#newsletter p{
+#newsletter p {
     font-size: 14px;
     font-weight: 600;
     color: #818ea8;
@@ -475,7 +475,7 @@ body{
     color: #ffbd27;
 }
 
-#newsletter input{
+#newsletter input {
     height: 3.125rem;
     padding: 0 1.25em;
     font-size: 14px;
@@ -497,7 +497,7 @@ body{
 
 /*pie de pagina (footer)*/
 
-footer{
+footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -510,11 +510,11 @@ footer .col {
     margin-bottom: 20px;
 }
 
-footer .logo{
+footer .logo {
   margin-bottom: 30px;
 }
 
-footer h4{
+footer h4 {
     font-size: 14px;
     padding-bottom: 20px;
 }
@@ -535,27 +535,27 @@ footer .follow {
     margin-top: 20px;
 }
 
-footer .follow i{
+footer .follow i {
     color: #465b52;
     padding-right: 4px;
     cursor: pointer;
 }
 
-footer .install .row img{
+footer .install .row img {
   border: 1px solid #088178;
   border-radius: 6px;
 }
 
-footer .install img{
+footer .install img {
   margin: 10px 0 15px 0;
 }
 
 footer .follow i:hover,
-footer a:hover{
+footer a:hover {
     color: #0a5350;
 }
 
-footer .copyright{
+footer .copyright {
     width: 100%;
     text-align: center;
 }
@@ -580,11 +580,11 @@ footer .copyright{
     color: #fff;
 }
 
-#pagination{ /*aca centramos los iconos de catalogo*/
+#pagination { /*aca centramos los iconos de catalogo*/
     text-align: center;
 }
 
-#pagination a{ /*relleno de los iconos y un tamaño de en el relleno y margen de los iconos de catalogo*/
+#pagination a { /*relleno de los iconos y un tamaño de en el relleno y margen de los iconos de catalogo*/
     text-decoration: none;
     background-color: #088178;
     padding: 15px 20px;
@@ -593,7 +593,7 @@ footer .copyright{
     font-weight: 600;
 }
 
-#pagination a i{ /*aca se acomoda el icono de la flecha de catalogo, como el relleno y el tamaño del icono*/
+#pagination a i { /*aca se acomoda el icono de la flecha de catalogo, como el relleno y el tamaño del icono*/
     font-size: 16px;
     font-weight: 600;
 }
@@ -606,7 +606,7 @@ footer .copyright{
     margin-right: 20px;
 }
 
-#prodetails .single-pro-image{ /*acomodamos el espacio que va ocupar la img en el centro de ver su product*/
+#prodetails .single-pro-image { /*acomodamos el espacio que va ocupar la img en el centro de ver su product*/
     width: 40%;
     margin-right: 50px;
 }
@@ -634,13 +634,13 @@ footer .copyright{
     font-size: 26px;
 }
 
-#prodetails .single-pro-details select{ /*aca se acomoda la partte selecionar tallas el espacio que ocupara su margen de boton*/
+#prodetails .single-pro-details select { /*aca se acomoda la partte selecionar tallas el espacio que ocupara su margen de boton*/
     display: block;
     padding: 5px 10px;
     margin-bottom: 10px;
 }
 
-#prodetails .single-pro-details input{ /*aca decide cuantos objetos desea llevar lo que se hace es reducir su barra selecion de objetos hacerla mas pequeña y comoda*/
+#prodetails .single-pro-details input { /*aca decide cuantos objetos desea llevar lo que se hace es reducir su barra selecion de objetos hacerla mas pequeña y comoda*/
     width: 50px;
     height: 47px;
     padding-left: 10px;
@@ -648,7 +648,7 @@ footer .copyright{
     margin-right: 10px;
 }
 
-#prodetails .single-pro-details input:focus{ /*aca eliminamos el contorno de (cuantos objetos seleciona)*/
+#prodetails .single-pro-details input:focus { /*aca eliminamos el contorno de (cuantos objetos seleciona)*/
     outline: none;
 }
 
@@ -657,13 +657,13 @@ footer .copyright{
     color: #fff;
 }
 
-#prodetails .single-pro-details span{ /*aca se acomoda la parte del span o texto descripcion del product, haciendo que el text ya no este pegado encima del otro*/
+#prodetails .single-pro-details span { /*aca se acomoda la parte del span o texto descripcion del product, haciendo que el text ya no este pegado encima del otro*/
     line-height: 25px;
 }
 
 /*Página del blog*/
 
-#page-header.blog-header{
+#page-header.blog-header {
     background-image: url(img/blog/b19.jpg);
 }
 
@@ -684,7 +684,7 @@ footer .copyright{
     margin-right: 40px;
 }
 
-#blog img{ /*se mejora la posicion la imagen que sea fija*/
+#blog img { /*se mejora la posicion la imagen que sea fija*/
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -694,7 +694,7 @@ footer .copyright{
     width: 50%;
 }
 
-#blog .blog-details a{ /*aca se mejora el diseño del botton de (Seguir leyendo), como su tamaño que va ocupar que va ser 11px, se soloca posicion relactiva eso para que alla delizamiento inferior*/
+#blog .blog-details a { /*aca se mejora el diseño del botton de (Seguir leyendo), como su tamaño que va ocupar que va ser 11px, se soloca posicion relactiva eso para que alla delizamiento inferior*/
     text-decoration: none;
     font-size: 11px;
     color: #000;
@@ -703,7 +703,7 @@ footer .copyright{
     transition: 0.3s;
 }
 
-#blog .blog-details a::after{ /*aca se crea la linea que va a lado de botton y la parte de arriba se coloca la posicion relactive para que por crear la linea no alla delizamiento inferior*/
+#blog .blog-details a::after { /*aca se crea la linea que va a lado de botton y la parte de arriba se coloca la posicion relactive para que por crear la linea no alla delizamiento inferior*/
     content: "";
     width: 50px;
     height: 1px;
@@ -713,7 +713,7 @@ footer .copyright{
     right: -60px;
 }
 
-#blog .blog-details a:hover{ /*ahora con eso podemos ver que cuando medio pasemos por el botton(Seguir leyendo) va tener un un color cuando lo oprimamos o paremos en el*/
+#blog .blog-details a:hover { /*ahora con eso podemos ver que cuando medio pasemos por el botton(Seguir leyendo) va tener un un color cuando lo oprimamos o paremos en el*/
     color: #088178;
 }
 
@@ -733,21 +733,21 @@ footer .copyright{
 
 /*Acerca de la página (about)*/
 
-#page-header.about-header{ /*aca se coloca el banner de about*/
+#page-header.about-header { /*aca se coloca el banner de about*/
     background-image: url(img/about/banner.png);
 }
 
-#about-head{ /*acomodamos el texto y lo centramos*/
+#about-head { /*acomodamos el texto y lo centramos*/
     display: flex;
     align-items: center;
 }
 
-#about-head img{ /*se acomo la imegen que ocupe el 50%*/
+#about-head img { /*se acomo la imegen que ocupe el 50%*/
   width: 50%;
   height: auto;
 }
 
-#about-head div{ /*le otorgamos un espacio al texto para que no quede pegado a la img*/
+#about-head div { /*le otorgamos un espacio al texto para que no quede pegado a la img*/
     padding-left: 40px;
 }
 
@@ -755,13 +755,13 @@ footer .copyright{
     text-align: center;
 }
 
-#about-app .video{ /*aca  acomodamos el espacio y hace un centrado del video, se acomoda el ancho 70%*/
+#about-app .video { /*aca  acomodamos el espacio y hace un centrado del video, se acomoda el ancho 70%*/
    width: 70%;
    height: 100%;
    margin: 30px auto 0 auto;
 }
 
-#about-app .video video{ /*aca se acomoda los bordes del video y la altura del video a un 100%*/
+#about-app .video video { /*aca se acomoda los bordes del video y la altura del video a un 100%*/
     width: 100%;
     height: 100%;
     border-radius: 20px;
@@ -770,7 +770,7 @@ footer .copyright{
 
 /*Página de contacto*/
 
-#contact-details{ /*con esto hacemos que nuestro text y map este en una fila juntos*/
+#contact-details { /*con esto hacemos que nuestro text y map este en una fila juntos*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -781,12 +781,12 @@ footer .copyright{
 }
 
 #contact-details .details span,/*aca se acomoda estilo del titulo span*/
-#form-details form span{
+#form-details form span {
   font-size: 12px;
 }
 
 #contact-details .details h2,/*se acomoda el titulo tenga un espacio y estilo*/
-#form-details form h2{ 
+#form-details form h2 { 
   font-size: 26px;
   line-height: 35px;
   padding: 20px 0;
@@ -797,28 +797,28 @@ footer .copyright{
   padding-bottom: 15px;
 }
 
-#contact-details .details li{ /*se da un espacio estre cada text*/
+#contact-details .details li { /*se da un espacio estre cada text*/
     list-style: none;
     display: flex;
     padding: 10px 0;
 }
 
-#contact-details .details li i{ /*se da acomodacion y estilo a los iconos*/
+#contact-details .details li i { /*se da acomodacion y estilo a los iconos*/
     font-size: 14px;
     padding-right: 22px;
 }
 
-#contact-details .details li p{ /*se acomoda el text para que este en al margen de los iconos*/
+#contact-details .details li p { /*se acomoda el text para que este en al margen de los iconos*/
     margin: 0;
     font-size: 14px;
 }
 
-#contact-details .map{ /*se acomoda el ancho del map*/
+#contact-details .map { /*se acomoda el ancho del map*/
     width: 55%;
     height: 400px;
 }
 
-#contact-details .map iframe{ /*se acomoda el su altura*/
+#contact-details .map iframe { /*se acomoda el su altura*/
     width: 100%;
     height: 100%;
 }
@@ -831,7 +831,7 @@ footer .copyright{
     border: 1px solid #e1e1e1;
 }
 
-#form-details form{ /*aca se acomoda el interzas de (saber tu mensaje), se acomoda por columnas*/
+#form-details form { /*aca se acomoda el interzas de (saber tu mensaje), se acomoda por columnas*/
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -839,43 +839,159 @@ footer .copyright{
 }
 
 #form-details form input,/*aca se le da unos bordes, tambien un espacio entre los input, aprte se acomoda la parte del textarea quedo mismo tamaño de los espacios*/
-#form-details form textarea{
+#form-details form textarea {
     width: 100%;
     padding: 12px 15px;
     outline: none;
     margin-bottom: 20px;
     border: 1px solid #e1e1e1;
 }
-#form-details form button{
+#form-details form button {
     background-color: #088178;
     color: #fff;
 }
 
 /*aqui se acomo to la zona de poder conctatar, o por decir (people) se le dio diseño y se acomodo a una medida perfecta*/
-#form-details .people div{
+#form-details .people div {
     padding-bottom: 25px;
     display: flex;
     align-items: flex-start;
 }
 
-#form-details .people div img{
+#form-details .people div img {
     width: 65px;
     height: 65px;
     object-fit: cover;
     margin-right: 15px;
 }
 
-#form-details .people div p{
+#form-details .people div p {
     margin: 0;
     font-size: 13px;
     line-height: 25px;
 }
 
-#form-details .people div p span{
+#form-details .people div p span {
     display: block;
     font-size: 16px;
     font-weight: 600;
     color: #000;
+}
+
+/*pagina de cart (carrito)*/
+
+#cart {
+    overflow-x: auto;
+}
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img {
+  width: 70px;
+}
+
+#cart table td:nth-child(1) {
+    width: 100%;
+    text-align: center;
+}
+
+#cart table td:nth-child(2) {
+    width: 150%;
+    text-align: center;
+}
+
+#cart table td:nth-child(3) {
+    width: 250%;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150%;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input {
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#cart table tbody tr td {
+    padding-top: 15px;
+}
+
+#cart table tbody td {
+    font-size: 13px;
+}
+
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3 {
+    padding-bottom: 15px;
+}
+
+#coupon input {
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button {
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
 }
 
 /*Iniciar consulta de medios, que se adapte a dispositivos medianos*/
@@ -901,7 +1017,7 @@ footer .copyright{
     }
 
     /*elemento de creacion barra del interfaz*/
-    #navbar.active{
+    #navbar.active {
         right: 0;
     }
 
@@ -914,13 +1030,13 @@ footer .copyright{
         align-items: center;
     }
 
-    #mobile i{
+    #mobile i {
         color: #1a1a1a;
         font-size: 24px;
         padding-left: 20px;
     }
 
-    #close{ /*aca se acomoda la posicion de X para salir del interfaz, aca se le da color y posicion*/
+    #close { /*aca se acomoda la posicion de X para salir del interfaz, aca se le da color y posicion*/
         display: initial;
         position: absolute;
         top: 30px;
@@ -929,7 +1045,7 @@ footer .copyright{
         font-size: 24px;
     }
 
-    #lg-bag{ /*aca con el id de lg-bag lo que hacemos con css vamos hacer que la bolsa no sea visible*/
+    #lg-bag { /*aca con el id de lg-bag lo que hacemos con css vamos hacer que la bolsa no sea visible*/
        display: none;
     }
 
@@ -974,6 +1090,16 @@ footer .copyright{
 
     #newsletter .form { /* la parte de correo se acomoda la barra donde se coloca el correo, se le aumenta su ancho*/
         width: 70%;
+    }
+
+    /*Página de contacto para medios medianos*/
+    
+    #form-details { /*aca se acomoda el espacio del formulario y contact*/
+        padding: 40px;
+    }
+
+    #form-details form { /*aca acomodamos el ancho del formulario asi haciendo que no quede encima de contact*/
+        width: 50%;
     }
 }
 
@@ -1042,12 +1168,12 @@ footer .copyright{
 
     /*Producto único o (descripcion del producto su informacion img y mas..., (shoproduct.html)*/
 
-    #prodetails{ /*se hace que se pueda ver la descripcion en column haciendo que sea comodo y mejor para mobile*/
+    #prodetails { /*se hace que se pueda ver la descripcion en column haciendo que sea comodo y mejor para mobile*/
         display: flex;
         flex-direction: column;
     }
 
-    #prodetails .single-pro-image{ /*se acomo cuando vayan a ver la descripcion del producto lo vean comodos en mobile*/ 
+    #prodetails .single-pro-image { /*se acomo cuando vayan a ver la descripcion del producto lo vean comodos en mobile*/ 
         width: 100%;
         margin-right: 0px;
     }
@@ -1095,5 +1221,46 @@ footer .copyright{
 
     #about-app .video {/*aca se le dice al video que ocupe 100% sea mejor visile el video en dispositivos pequeños*/
         width: 100%; 
+    }
+
+    /*Página de contacto para medios pequeños*/
+
+    #contact-details { /*aca se acomodan las cosas en columnas*/
+        flex-direction: column;
+    }
+
+    #contact-details .details { /*aca se pone ocupe el 100% para dispositivos inteligentes, se le pone un margen*/
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map {/*aca acomodamos la imgen para que ocupe el 100% de espacio y se adapte a dispositivos pequeños*/
+        width: 100%;
+    }
+
+    #form-details { /*con esto se puede ver formulario contact en una columna*/
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;   
+    }
+
+    #form-details form { /*con esto podemos acomodar al 100% el formulario como los contact dandole un margen inferior para que no queden pegados entre ellos*/
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*pagina de cart (carrito)*/
+
+    #cart-add {
+       flex-direction: column;
+    }
+
+    #coupon {
+        width: 100%;
+    }
+    
+    #subtotal {
+        width: 100%;
+        padding: 20px;
     }
 }
